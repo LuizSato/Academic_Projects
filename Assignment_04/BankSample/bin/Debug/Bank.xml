@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBranch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Branch>
+    <Address>
+      <StreetNumber>937</StreetNumber>
+      <ApartmentNumber>304</ApartmentNumber>
+      <StreetName>Progress Ave.</StreetName>
+      <City>Scarborough</City>
+      <Province>ON</Province>
+      <PostalCode>M1G-3T8</PostalCode>
+      <PhoneNumber>(647) 325-2563</PhoneNumber>
+    </Address>
+    <Customers>
+      <Customer>
+        <FirstName>Artur</FirstName>
+        <LastName>Fundukyan</LastName>
+        <Address>
+          <StreetNumber>937</StreetNumber>
+          <ApartmentNumber>304A</ApartmentNumber>
+          <StreetName>Progress Ave.</StreetName>
+          <City>Scarborough</City>
+          <Province>ON</Province>
+          <PostalCode>M1G-3T8</PostalCode>
+          <PhoneNumber>(647) 325-2525</PhoneNumber>
+        </Address>
+        <Accounts />
+      </Customer>
+      <Customer>
+        <FirstName>Luiz</FirstName>
+        <LastName>Sato</LastName>
+        <Address>
+          <StreetNumber>27</StreetNumber>
+          <ApartmentNumber />
+          <StreetName>Horton</StreetName>
+          <City>Scarborough</City>
+          <Province>ON</Province>
+          <PostalCode>M1J-1K7</PostalCode>
+          <PhoneNumber>(437) 325-2522</PhoneNumber>
+        </Address>
+        <Accounts />
+      </Customer>
+      <Customer>
+        <FirstName>Yegor</FirstName>
+        <LastName>Aleksandrov</LastName>
+        <Address>
+          <StreetNumber>937</StreetNumber>
+          <ApartmentNumber>304B</ApartmentNumber>
+          <StreetName>Progress Ave.</StreetName>
+          <City>Scarborough</City>
+          <Province>ON</Province>
+          <PostalCode>M1G-3T8</PostalCode>
+          <PhoneNumber>(647) 325-3333</PhoneNumber>
+        </Address>
+        <Accounts />
+      </Customer>
+    </Customers>
+  </Branch>
+  <Branch>
+    <Address>
+      <StreetNumber>100</StreetNumber>
+      <ApartmentNumber>101</ApartmentNumber>
+      <StreetName>Main Street.</StreetName>
+      <City>Toronto</City>
+      <Province>ON</Province>
+      <PostalCode>M4B-4B4</PostalCode>
+      <PhoneNumber>(647) 100-1000</PhoneNumber>
+    </Address>
+    <Customers />
+  </Branch>
+</ArrayOfBranch>
