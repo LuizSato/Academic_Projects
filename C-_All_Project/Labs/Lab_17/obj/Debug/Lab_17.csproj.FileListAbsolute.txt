@@ -1,0 +1,7 @@
+C:\Users\Luiz Sato\Desktop\OneDrive - Centennial College\Attachments\COMP100-001\C#\Summer_2018\Labs\Lab_17\bin\Debug\Lab_17.exe.config
+C:\Users\Luiz Sato\Desktop\OneDrive - Centennial College\Attachments\COMP100-001\C#\Summer_2018\Labs\Lab_17\bin\Debug\Lab_17.exe
+C:\Users\Luiz Sato\Desktop\OneDrive - Centennial College\Attachments\COMP100-001\C#\Summer_2018\Labs\Lab_17\bin\Debug\Lab_17.pdb
+C:\Users\Luiz Sato\Desktop\OneDrive - Centennial College\Attachments\COMP100-001\C#\Summer_2018\Labs\Lab_17\obj\Debug\Lab_17.csprojAssemblyReference.cache
+C:\Users\Luiz Sato\Desktop\OneDrive - Centennial College\Attachments\COMP100-001\C#\Summer_2018\Labs\Lab_17\obj\Debug\Lab_17.csproj.CoreCompileInputs.cache
+C:\Users\Luiz Sato\Desktop\OneDrive - Centennial College\Attachments\COMP100-001\C#\Summer_2018\Labs\Lab_17\obj\Debug\Lab_17.exe
+C:\Users\Luiz Sato\Desktop\OneDrive - Centennial College\Attachments\COMP100-001\C#\Summer_2018\Labs\Lab_17\obj\Debug\Lab_17.pdb
