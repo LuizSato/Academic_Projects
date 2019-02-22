@@ -1,0 +1,60 @@
+﻿@page
+@model RecipesProject.Controllers.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>All Recipes</h2>
+<br />
+<p>
+    <a class="btn btn-dark" asp-page="Create">Create New</a>
+    <br />
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Recipe[0].RecipeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Recipe[0].Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Recipe[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Recipe[0].CookingTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Recipe[0].Yield)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Recipe) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecipeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CookingTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Yield)
+            </td>
+            <td>
+                <a class="btn btn-dark" asp-page="./Edit" asp-route-id="@item.RecipeID">Edit</a>
+                <a class="btn btn-dark" asp-page="./Details" asp-route-id="@item.RecipeID">Details</a>
+                <a class="btn btn-dark" asp-page="./Delete" asp-route-id="@item.RecipeID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

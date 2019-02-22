@@ -1,0 +1,110 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Welcome to Recipes Books!";
+    Layout = null;
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" , initial-scale=1 />
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" rel="stylesheet" />
+    <link href="~/css/frameworks/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/HomeStyle.css" rel="stylesheet" />
+    <link href="~/css/frameworks/all.min.css" rel="stylesheet">
+    <link href="~/css/frameworks/magnific-popup.css" rel="stylesheet" />
+    <link href="~/css/frameworks/freelancer.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark text-uppercase nav-bar-fix">
+        <div class="container">
+            <div class="navbar-header">
+                <a asp-page="/Index" class="navbar-brand">Recipes Books</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-4 px-0 px-lg-3 rounded" asp-page="/Index">Home</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-4 px-0 px-lg-3 rounded" asp-page="/About">About</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-4 px-0 px-lg-3 rounded" asp-page="/Recipes/Index">Recipes</a>
+                    </li>
+                    <partial name="_LoginPartial" />
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="home">
+
+    </div>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">For More Information</h4>
+                    <p class="lead mb-0">
+                        Please enter send an e-mail: <a href="mailto:lkenjisa@my.centennialcollege.ca">Click Here</a>
+                        <br>
+                    </p>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Follows Us!</h4>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                                <i class="fab fa-fw fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                                <i class="fab fa-fw fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                                <i class="fab fa-fw fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                                <i class="fab fa-fw fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                                <i class="fab fa-fw fa-dribbble"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-uppercase mb-4">About Recipes Books</h4>
+                    <p class="lead mb-0">
+                        This site was create by Luiz Kenji Sato with the intend to share more recipes
+                        between people.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright py-4 text-center text-white">
+        <div class="container">
+            <p>Copyright &copy; Luiz Kenji Sato | Boothstrap theme available <a href="https://startbootstrap.com/">Here</a> </p>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

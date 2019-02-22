@@ -1,0 +1,49 @@
+﻿.submit {
+    height: 45px;
+}
+
+.title {
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 20px;
+    text-align: center;
+    font-size: .8rem;
+    margin-bottom: 40px;
+}
+
+.group-form {
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    margin-right: 40px !important;
+    margin-left: 40px !important;
+}
+
+.padding-top-insert {
+    padding-top: 30px;
+}
+
+.select2-style {
+    padding: 0 !important;
+}
+
+.fielset-padding {
+    padding: 40px 60px 50px 40px;
+}
+
+.icon-padding {
+    padding-right: 10px;
+}
+
+.input-padding {
+    padding-left: 10px;
+}
+
+.row-insert {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center {
+    text-align: center;
+}
